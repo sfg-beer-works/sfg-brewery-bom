@@ -18,6 +18,7 @@
 
     <properties>
         <logstash.logback.version>6.3</logstash.logback.version>
+        <java.validation.version></java.validation.version>
     </properties>
 
     <dependencies>
@@ -58,6 +59,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
         </dependency>
     </dependencies>
 
