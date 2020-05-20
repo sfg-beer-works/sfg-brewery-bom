@@ -18,7 +18,6 @@
 
     <properties>
         <logstash.logback.version>6.3</logstash.logback.version>
-        <java.validation.version />
     </properties>
 
     <dependencies>
